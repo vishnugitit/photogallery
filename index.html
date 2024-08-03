@@ -6,86 +6,49 @@
     <title>Document</title>
     <style>
         #md{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 1vh;
+          
+            
+        }
+        .md1{
+            display: flex;
+            gap: 1vh;
+            flex-wrap: wrap;
+        }
+        .md2{
+            display: flex;
+            gap: 1vh;
+            flex-wrap: wrap;
+        }
+        
+    
+        img{
+            width: 15vw;
+            height: 18vh;
             border: 2px solid black;
-            width: 510px;
-            height: 220px;
-         
-           background-image: url(./soft.png);
-         
-           background-position: 58px;
-            
-           background-size: 47%;
-            
-        }
-       #Box1{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            background-image: url(./fullstack.jpeg);
-            background-position: center;
-            background-size: cover;
-        } 
-        #Box2{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            background-image: url(./datascience.png);
-            background-position: center;
-            background-size: cover;
-        } 
-        #Box3{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            margin-left: 100px;
-            margin-top: -223px; 
-            background-image: url(./cloud.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-        #Box4{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            margin-left: 100px; 
-            background-image: url(./appdev.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-        #Box5{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            margin-left: 201px; 
-            margin-top: -223px;
-            background-image: url(./cybersecurity.jpg);
-            background-position: center;
-            background-size: cover;
-
-        }
-        #Box6{
-            border: 1px solid black;
-            width: 100px;
-            height: 110px;
-            margin-left: 201px; 
-            margin-top: 0px;
-            background-image: url(./test.jpg);
-            background-position: center;
-            background-size: cover;
-           
         }
        
     </style>
 </head>
 <body>
     <div Id="md"> 
-        <div Id="Box1"></div>
-        <div Id="Box2"></div>
-        <div Id="Box3"></div>
-        <div Id="Box4"></div>
-        <div Id="Box5"></div>
-        <div Id="Box6"></div>
+        <div class="md1">
+        <div Id="Box1">  <img src="./fullstack.jpeg" ></div>
+        <div Id="Box2">  <img src="./datascience.png" ></div>
+        <div Id="Box3">  <img src="./cloud.jpg" ></div>
+       
     </div>
-   
+        <div class="md2">
+        <div Id="Box4">  <img src="./appdev.jpg" ></div>
+        <div Id="Box5">  <img src="./cybersecurity.jpg" ></div>
+        <div Id="Box6">  <img src="./test.jpg" ></div>
+        </div>
+       
+
+    </div>
+
 </body>
 </html>
